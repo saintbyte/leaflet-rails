@@ -124,3 +124,12 @@ map(:container_id => "second_map", :center => {
 })
 ```
 
+if you what make map lazy
+```ruby
+map(:onload=>true, :center => {
+    :latlng => [51.52238797921441, -0.08366235665359283],
+    :zoom => 18
+})
+
+```
+
